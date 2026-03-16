@@ -33,6 +33,7 @@ Each folder contains:
 | Topic | Article | Implementation |
 |------|------|------|
 | Data Extraction | [Docling: The Document Alchemist](https://towardsdatascience.com/docling-the-document-alchemist/) | [Code](./data-extraction/docling-document-alchemist/) |
+| MLOps | [Docker: Basics to Advanced](https://medium.com/@techsuneel99/docker-from-beginner-to-expert-a-comprehensive-tutorial-5efec10c82ab) | [Code](./mlops/docker-basics-to-adv/) |
 
 *(More coming soon)*
 

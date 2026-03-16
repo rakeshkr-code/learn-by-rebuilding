@@ -1,0 +1,6 @@
+docling
+jupyter
+pandas
+numpy
+matplotlib
+tqdm

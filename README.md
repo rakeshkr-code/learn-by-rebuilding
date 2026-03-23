@@ -55,9 +55,9 @@ This repository documents that learning process.
 
 Each article folder includes:
 
-- `implementation.ipynb` file or `implementation/` folder – main code
-- `notes.md` – summary of the article
-- `experiments.ipynb` file or `experiments/` folder – optional improvements
+- `implementation.ipynb` file or `implementation/` folder – this is basically re-doing or re-implementing what shown in the article. If article is simple or small content, then separately this section maynot be there. Instead experiments section directly will be there. 
+- `notes.md` – Summary of the article or my personal notes and explanation on how the things or technology under discussion work.
+- `experiments.ipynb` file or `experiments/` folder – This is my main work. 
 - `references.md` – source links
 
 ---

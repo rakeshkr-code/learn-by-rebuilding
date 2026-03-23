@@ -39,7 +39,7 @@ data-extraction/docling-document-alchemist/
 ├── sample_docs/
 │   ├── tesla_q10_sept_23_nonselectable.pdf
 │   ├── tesla_q10_sept_23.html
-│   ├── tesla_q10_sept_23_converted.pdf
+│   ├── tesla_q10_sept_23.pdf
 │   ├── tesla_q10_sept_23_page_11.png
 │   ├── IFCT2017-table-1-1.pdf
 │   └── IFCT2017-table-1-1-page-11.png
@@ -58,7 +58,7 @@ Another set of document I personally have IFCT2017 Food Nutrition document (born
 
 - `sample_docs/tesla_q10_sept_23_nonselectable.pdf`: This document suggested in the article, and this is the scanned version of PDF by `[Ctrl] + [P]` command against the webpage. 
 - `sample_docs/tesla_q10_sept_23.html`: This is the direct html page. 
-- `sample_docs/tesla_q10_sept_23_converted.pdf`: This is the HTML to PDF converted version (with the help of online tools).
+- `sample_docs/tesla_q10_sept_23.pdf`: This is the HTML to PDF converted version (with the help of online tools).
 - `sample_docs/tesla_q10_sept_23_page_11.png`: Page number 11 screenshot image of this document. 
 - `sample_docs/IFCT2017-table-1-1.pdf`: IFCT2017 Food Nutrition document PDF version (text based PDF). 
 - `sample_docs/IFCT2017-table-1-1-page-11.png`: Food Nutrition document page no 11 screenshot image. 
@@ -68,7 +68,7 @@ Another set of document I personally have IFCT2017 Food Nutrition document (born
 ## Description of Code files
 
 - `implementation.ipynb`: In this notebook I tried to re-implement the exact process as much as possible shown in the article. I have documented the results I found. I also documented some of my reviews and comments. 
-- `experiments.ipynb`: In this notebook I did few more relavant experiments.
+- [***] `experiments.ipynb`: In this notebook I did few more relavant experiments. 
 
 ## How to run?
 

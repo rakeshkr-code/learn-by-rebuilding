@@ -1,2 +1,4 @@
 .ipynb_checkpoints/
 *saved_artifacts/
+
+ChromaDB_Vectorstore/

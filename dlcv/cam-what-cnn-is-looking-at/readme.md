@@ -31,8 +31,9 @@ Here is the directory structure:
 data-extraction/docling-document-alchemist/
 ├── readme.md
 ├── .gitignore
-├── implementation.ipynb
-├── experiments.ipynb
+├── experiments
+|   ├── dataset_fixation_and_exploration.ipynb
+|   └── experiments.ipynb
 └── requirements.txt
 ```
 
@@ -40,8 +41,7 @@ data-extraction/docling-document-alchemist/
 
 ## Description of Code files
 
-- `implementation.ipynb`: In this notebook I tried to re-implement the exact process as much as possible shown in the article. I have documented the results I found. There were few issues in the implementation, I fixed those. I also documented some of my reviews and comments. 
-- [***] `experiments.ipynb`: In this notebook I did few more relavant experiments. 
+- dummy
 
 ## How to run?
 
@@ -49,3 +49,7 @@ data-extraction/docling-document-alchemist/
 - Activate this with `source .mlenv/bin/activate` command.
 - Create a `requirements.txt` file and pip install libraries by running `pip install -r requirements.txt`.
 - Notebooks are ready to execute. 
+
+## What to run in what sequence?
+- First run the `experiments/dataset_fixation_and_exploration.ipynb`: This will tell how many (n) classes are there, shape of the images (224 x 224 x 3), and show few samples of images. This notebook will also do some high level cleaning/fixation. 
+- 

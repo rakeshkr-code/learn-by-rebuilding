@@ -7,6 +7,7 @@
 
 ## Article Used
 [CAM - Class Activation Mapping](https://towardsdatascience.com/class-activation-mapping-using-transfer-learning-of-resnet50-e8ca7cfd657e/)
+[CAM Paper](https://arxiv.org/abs/1512.04150)
 
 
 ## Overview
@@ -39,10 +40,6 @@ data-extraction/docling-document-alchemist/
 
 ---
 
-## Description of Code files
-
-- dummy
-
 ## How to run?
 
 - Create one venv using `python -m venv .mlenv` command in WSL terminal.
@@ -52,4 +49,4 @@ data-extraction/docling-document-alchemist/
 
 ## What to run in what sequence?
 - First run the `experiments/dataset_fixation_and_exploration.ipynb`: This will tell how many (n) classes are there, shape of the images (224 x 224 x 3), and show few samples of images. This notebook will also do some high level cleaning/fixation. 
-- 
+- Then run the `experiments/experiments.ipynb` notebook. This notebook implements the CAM using PyTorch (original article used Tensorflow). Help of LLM tools is taken to code this notebook. 

@@ -2,3 +2,8 @@
 *saved_artifacts/
 
 data/
+
+plots/
+
+*.pt
+*.json

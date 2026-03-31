@@ -1,0 +1,10 @@
+__pycache__/
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# DO NOT ignore Data (Shapes/ folder) in this project, as it is lightweight and necessary
+
+# Ignore virtual environment folders
+venv/
+env/
+*env/

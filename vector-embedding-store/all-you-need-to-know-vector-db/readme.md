@@ -1,4 +1,4 @@
-# Docling: The Document Alchemist
+# All you need to know about vector DB
 
 - **Repo_Name:** `learn-by-rebuilding`
 - **Category:** `vector-embedding-store`

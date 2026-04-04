@@ -20,6 +20,7 @@ The goal is to explore what convolution operation exactly does with the input im
 - Creating a dataset manually with B&W images of basic shapes like line, circle, etc
 - Applying different hand-crafted kernels and perform convolution operation over the images
 - Plotting input image and convolved output image for comparable visualization
+- Exlporing different kernels and the functionalities of those kernels
 
 ---
 

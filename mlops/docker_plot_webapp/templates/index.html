@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Plotter</title>
+</head>
+
+<body>
+
+<h2>Plot Numbers</h2>
+
+<form action="/plot" method="post">
+
+<input
+type="text"
+name="numbers"
+style="width:400px"
+placeholder="10 20 30 40 50">
+
+<br><br>
+
+<button type="submit">
+Plot
+</button>
+
+</form>
+
+{% if image %}
+
+<h3>Generated Plot</h3>
+
+<img src="{{ image }}" width="600">
+
+{% endif %}
+
+</body>
+
+</html>

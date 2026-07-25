@@ -5,12 +5,18 @@ from fastapi.templating import Jinja2Templates
 
 from plotting import create_plot
 
+from config import UPLOAD_DIR
+
 
 app = FastAPI()
 
 templates = Jinja2Templates(directory="templates")
 
-app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
+app.mount(
+    "/uploads",
+    StaticFiles(directory=UPLOAD_DIR),
+    name="uploads",
+)
 
 
 @app.get("/", response_class=HTMLResponse)

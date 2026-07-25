@@ -1,16 +1,19 @@
-from pathlib import Path
 from datetime import datetime
 
 import matplotlib.pyplot as plt
 
-
-UPLOAD_DIR = Path("uploads")
-UPLOAD_DIR.mkdir(exist_ok=True)
+from config import UPLOAD_DIR
+from logger import logger
 
 
 def create_plot(numbers: list[int]) -> str:
     """
-    Create a line plot from the given numbers.
+    Generate a line plot from the given numbers.
+
+    Parameters
+    ----------
+    numbers : list[int]
+        List of integers to plot.
 
     Returns
     -------
@@ -40,4 +43,7 @@ def create_plot(numbers: list[int]) -> str:
 
     plt.close()
 
+    logger.info("Created plot %s", filename)
+
     return filename
+

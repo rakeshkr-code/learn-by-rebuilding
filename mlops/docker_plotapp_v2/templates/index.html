@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Plot Platform</title>
+
+</head>
+
+<body>
+
+    <h1>Plot Numbers</h1>
+
+    <form action="/plot" method="post">
+
+        <input
+            type="text"
+            name="numbers"
+            placeholder="10 15 22 40 18"
+            size="40"
+            required
+        >
+
+        <button type="submit">
+            Plot
+        </button>
+
+    </form>
+
+    {% if image %}
+
+    <hr>
+
+    <h2>Generated Plot</h2>
+
+    <img src="/uploads/{{ image }}" width="700">
+
+    {% endif %}
+
+</body>
+
+</html>
